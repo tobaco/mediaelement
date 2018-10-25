@@ -454,7 +454,7 @@ You can also type `grunt debug` to avoid removing the console messages.
 
 Additionally, `grunt` can accept an extra option to create custom bundle.
 
-The way to use them is to append the keyword `--renderers`, followed by the comma-separated list of elements.
+The way to use them is to append the keyword `--features`, followed by the comma-separated list of elements.
 
 The list must match the name of the files, meaning that if you wanna include the `x` renderer, it must exist a `src/js/renderers/x.js` file.
 
@@ -462,7 +462,7 @@ For example:
 
 ```
 # This will build a bundle with `HLS` and `DASH` renderers ONLY, plus all the default player features
-grunt --renderers=hls,dash
+grunt --features=hls,dash
 ```
 ________
 [Back to Main](../README.md)
